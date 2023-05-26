@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+#game-board {
+  font-size: 25px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#game-board table {
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+#game-board td {
+  border: 5px solid #000;
+  padding: 30px;
+  text-align: center;
+}
+.safe-spot {
+  background-color: rgba(34, 0, 255, 0.712);
+}
+.finish {
+  background-color: rgba(0, 128, 64, 0.244);
+}
